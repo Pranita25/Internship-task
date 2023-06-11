@@ -1,0 +1,184 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    min-height: 10vh;    
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    list-style: none;
+    margin-left: 35%;
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+        color: #3acf80;
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>
+    .nav-link{
+        color: #3acf80;
+    }
+    .bg-light{
+        background-color: antiquewhite!important;
+        color: black;
+    }
+    .navbar-expand-sm .navbar-collaspe{
+        display: flex!important;
+        flex-basis: auto;
+        font-size: 18px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: rgba(0,0,0,0.55);
+        margin: 0 15px 0 0;
+    }
+    .slider-box{
+        max-height: 95vh;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .slider-box img{
+        height: 100%;
+        width: 100%;
+    }
+    .section-service{
+        min-height: 100vh;
+        width: 100%;
+        margin: 0 0 3rem;
+        text-align: center;
+    }
+    .service{
+        background: 0 0;
+        cursor: pointer;
+    }
+    .service img{
+        border: 15px solid transparent;
+        box-sizing: border-box;
+    }
+    .service:hover img{
+        border: 15px solid #13ccad;
+    }
+    .counter-box{
+        display: block;
+        background: #f1ecec;
+        padding: 45px 25px 40px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .counter-box p{
+        margin: 7px 0 0;
+        padding: 0;
+        color: #7c7b7b;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .counter-box i{
+        font-size: 55px;
+        margin: 0 0 10px;
+        color: #d4d4d4;
+    }
+    .counter{
+        display: block;
+        font-size: 35px;
+        font-weight: 600;
+        color: #747373;
+        line-height: 30px;
+    }
+    .counter-box:hover{
+        background: #caeedc;
+    }
+    .counter-box.colored{
+        background: #3acf80;
+    }
+    .counter-box.colored p, .counter-box.colored i, .counter-box.colored .counter{
+        color: #ffff;
+    }.section-product{
+        background-image: linear-gradient(to right,#21c4a3,#51c438);
+        min-height: 70vh;
+        width: 100%;
+        padding: 9px;
+    }
+    .carousel-item img{
+        max-height: 90vh;
+        width: 100%
+       }
+       .card{
+        cursor: pointer;
+    }
+    .card:hover{
+        transform: scale(1.05);
+        transition-duration: 1.1s;
+    }
+    .shadow-bg2{
+        background: rgba(25,35,25,.5);
+        min-height: 60vh;
+        width: 100%;
+        color: #ffff;
+    }
+    .section-career{
+        min-height: 60vh;
+        width: 100%;
+        background-color: #29c493;
+        padding-top: 2rem;
+    }
+    .small-box{
+        min-height: 10vh;
+        min-width: 9vh;
+        background-color: #fcf4f4;
+        margin: 10px;
+        text-align: center;
+        cursor: pointer;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: #000;
+        padding: 10px;
+    }    
+    .small-box:hover{
+        background-color: #29c493;
+        transition: 3s;
+        color: #ffff;
+    }
+    .small-box img{
+        height: 10vh;
+        width: 10vh;
+        margin: 7px;
+    }
+    .section-contact{
+        min-height: 50vh;
+        width: 100%;
+        margin: 0 0 2em;
+       }
+       .section-footer{
+        background-color: #131212;
+        width: 100%;
+        min-height: 30vh;
+       }
+       .section-footer a{
+        text-decoration: none;
+        color: #ffff;
+       }
+       .contact.info.box-style1:hover{
+        box-shadow: 15px 15px 35px 0 rgba(40,185,50,.5);
+       }
+       .contact.info.box-style1{
+        padding: 25px 25px 20px;
+       }
+       .contact-info .info-text{
+        padding-left: 55px;
+        font-weight: 600;
+        cursor: pointer;
+       }
+       .contact-info{
+        font-size: 15px;
+        color: #7a7a7a;
+        cursor: pointer;
+       }
+       .bg-light-blue{
+        background-color: #f0f7fd;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+
+       }
